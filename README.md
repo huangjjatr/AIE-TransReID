@@ -26,7 +26,7 @@ unzip Market-1501-v15.09.15.zip -d AIE-TransReID/datasets/market1501
 ```
 
 ```extract DukeMTMC
-unzip DukeMTMC-reID.zip -d AIE-TransReID/datasets/dukemtmc
+unzip DukeMTMC-reID.zip -d AIE-TransReID/datasets/dukemtmcreid
 ```
 
 ### Prepare CLIP and ViT Pre-trained Models
@@ -42,6 +42,7 @@ unzip jx_vit_base_p16_224-80ecf9dd.zip -d AIE-TransReID/model/jx_vit_base_p16_22
 ```
 
 ## Training
+We utilize 1 GPU with 32G GPU memory for training.
 
 To train the model(s) in the paper, in the AIE-TransReID directory run these commands:
 
