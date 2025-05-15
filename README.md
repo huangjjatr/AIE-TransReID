@@ -74,12 +74,12 @@ jupyter notebook Duke_AIE_SIE.ipynb
 You may also test each trained model with different attribute information embedding strength by using test.py with the settings the same in training.
 
 To reproduce the results shown in Table 1, run test.sh with a command line parameter 'm' first and then 'd' to generated evaluating performance with attribute information dropouts.
-```
+```dropout
 ./test.sh m
 ./test.sh d
 ```
 Then change to subdirectory : logs, open AIE_test.dropout.ipynb and run all the cells to generate all the data shown in Table 1.
-```
+```logs
 cd logs
 jupyter notebook AIE_test.dropout.ipynb
 (after open the notebook in a browser, run all the cells)
