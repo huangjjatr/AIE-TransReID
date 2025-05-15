@@ -20,9 +20,9 @@ pip install git+https://github.com/openai/CLIP.git
 
 ### Prepare Datasets
 
-Download [Market1501](https://github.com/pseudonymous-aie/AIE-TransReID/Market-1501-v15.09.15.zip) and [DukeMTMC](https://github.com/pseudonymous-aie/AIE-TransReID/DukeMTMC-reID.zip) and extract file to directory: AIE-TransReID/datasets:
+Download [Market1501](https://gitcode.com/Universal-Tool/6378f/blob/main/market1501.zip) and [DukeMTMC](due to privacy policy, this dataset cannot be opened to public) and then extract file to directory: AIE-TransReID/datasets:
 ```extract Market1501
-unzip Market-1501-v15.09.15.zip -d AIE-TransReID/datasets/market1501
+unzip market1501.zip -d AIE-TransReID/datasets/market1501
 ```
 
 ```extract DukeMTMC
@@ -30,13 +30,13 @@ unzip DukeMTMC-reID.zip -d AIE-TransReID/datasets/dukemtmcreid
 ```
 
 ### Prepare CLIP and ViT Pre-trained Models
-You need to download the pretrained [CLIP ViT-B-16.pt](https://github.com/pseudonymous-aie/AIE-TransReID/ViT-B-16.zip) and extract it to 
+You need to download the pretrained [CLIP ViT-B-16.pt](https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt) and extract it to 
 : AIE-TransReID/text:
 ```unzip ViT-B-16
 unzip ViT-B-16.zip -d AIE-TransReID/text
 ```
 
-You need also to download the ImageNet pretrained transformer model : [ViT-Base](https://github.com/pseudonymous-aie/AIE-TransReID/jx_vit_base_p16_224-80ecf9dd.zip) and extract it to : AIE-TransReID/model:
+You need also to download the ImageNet pretrained transformer model : [ViT-Base](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth) and extract it to : AIE-TransReID/model:
 ```unzip jx_vit_base_p16_224-80ecf9dd
 unzip jx_vit_base_p16_224-80ecf9dd.zip -d AIE-TransReID/model/jx_vit_base_p16_224-80ecf9dd.pth
 ```
