@@ -31,9 +31,9 @@ unzip DukeMTMC-reID.zip -d AIE-TransReID/datasets/dukemtmcreid
 
 ### Prepare CLIP and ViT Pre-trained Models
 You need to download the pretrained [CLIP ViT-B-16.pt](https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt) to directory
-: AIE-TransReID/text:
+: AIE-TransReID/text.
 
-You need also to download the ImageNet pretrained transformer model : [ViT-Base](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth) to directory: AIE-TransReID/model:
+You need also to download the ImageNet pretrained transformer model : [ViT-Base](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth) to directory: AIE-TransReID/model.
 
 
 ## Training
