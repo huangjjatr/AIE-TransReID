@@ -71,7 +71,7 @@ cd AIE-TransReID/logs/duke_attribute/
 jupyter notebook Duke_AIE_SIE.ipynb
 (after open the notebook in a browser, run all the cells)
 ```
-You may also test each trained model with different attribute information embedding strength by using *test.py* with the settings the same in training.
+You may also test each trained model with different attribute information embedding strength by using *test.py* with the settings the same as those in training.
 
 To evaluate performance with attribute information dropouts, run *test.sh* with a command line parameter 'm' first and then 'd' to generated evaluating log files.
 ```bash
@@ -96,7 +96,7 @@ The TransReId model uses the pretrained  Google vit_base_p16_224 model. The AIE 
 1. The results of the performance vs. AIE strength &gamma; can be reproduced using our training logs. Goto subdirectory *logs/market_attribute/* and *openMarket_AIE_SIE.ipynb* and run all the cells, you can get the following figures:
 
     ![Fig.1(a)](Fig.1(a).png)
-    <p>Fig.1 (a)</p>
+    <p><center>Fig.1 (a)</center></p>
 
     ![Fig.1(c)](Fig.1(c).png)
     <center><p>Fig.1 (c)</p></center>
