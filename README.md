@@ -117,13 +117,13 @@ You can also downloaded the following trained
 (after download, under command line run)
 unzip market_model.zip -d AIE_TransReID/logs/market_attribute/transformer_0_26.pth
 ```
-* For model on [DukeMTMC](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/duke_model.zip) with AIE strength &gamma; = 1.6.
+* For model on [DukeMTMC](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/duke_model.zip) with AIE strength $\gamma=1.6$.
 ```bash
 (after download, under command line run)
 unzip duke_model.zip -d AIE_TransReID/logs/duke_attribute/transformer_0_16.pth
 ```
 and run *test.sh* to reproduce log files as stated in **Evaluation** section. Our testing logs are provided so you can skip the time-consuming testing process. In the *logs* directory, there is an notebook named *AIE_test_dropout.ipynb*. Go to that directory and open it then run all the cells, you'll get those results in Table.1:
-#### Attribute dropout results on Market1501 #####
+**Attribute dropout results on Market1501**
 |    | dropout_rate(%) | mAP_mean(%) | mAP_std(%) |  R1_mean(%) | R1_std(%) |
 | --- | ---: | :---: | :---: | :---: | :---: | 
 | 0 | 1 | 98.11 | 0.13 | 99.52 | 0.07 |
@@ -132,7 +132,7 @@ and run *test.sh* to reproduce log files as stated in **Evaluation** section. Ou
 | 3 | 10  | 98.13 | 0.10 | 99.56 | 0.07 |
 | 4 | 20  | 98.11 | 0.13 | 99.53 | 0.08 |
 
-#### Attribute dropout results on DukeMTMC ####
+**Attribute dropout results on DukeMTMC**
 |    | dropout_rate(%) | mAP_mean(%) | mAP_std(%) | R1_mean(%) | R1_std(%) |
 | --- | ---: | :---: | :---: | :---: | :---: | 
 | 0 | 1 | 93.55 | 0.15 | 97.60 | 0.28 |
@@ -141,7 +141,7 @@ and run *test.sh* to reproduce log files as stated in **Evaluation** section. Ou
 | 3 | 10  | 93.54 | 0.16 | 97.54 | 0.19 |
 | 4 | 20  | 93.61 | 0.11 | 97.64 | 0.25 | 
 
-4. Our model achieves the following performance on Market1501 and DukeMTMC datasets with the optimal AIE strength values:
+3. Our model achieves the following performance on Market1501 and DukeMTMC datasets with the optimal AIE strength values:
 
 | Datasets     |     mAP    |     Rank-1     |  AIE strength  |
 | ------------ | ---------- | -------------- | -------------- |
@@ -149,8 +149,8 @@ and run *test.sh* to reproduce log files as stated in **Evaluation** section. Ou
 | DukeMTMC     |     91.2%  |      96.00%    |       1.6      |
 
 The above results can be found in log files: 
-1. AIE-TransReID/logs/market_attribute/train_bg_384_0.log (below the line ending with SIE_Lambda: 2.6)
-2. AIE-TransReID/logs/duke_attribute/train_384x128_0.log.log (below the line ending with SIE_Lambda: 1.6)
+- AIE-TransReID/logs/market_attribute/train_bg_384_0.log (below the line ending with SIE_Lambda: 2.6)
+- AIE-TransReID/logs/duke_attribute/train_384x128_0.log.log (below the line ending with SIE_Lambda: 1.6)
 
 
 ## Contributing
