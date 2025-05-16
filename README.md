@@ -7,37 +7,37 @@ attribute information embedding](Submitted to NeurIPS2025).
 
 To install requirements:
 
-```First setup
+```bash
 pip install -r requirements.txt
 (we use /torch 1.6.0 /torchvision 0.7.0 /timm 0.3.2 /cuda 10.1 / 16G or 32G V100 for training and evaluation.
 Note that we use torch.cuda.amp to accelerate speed of training which requires pytorch >=1.6)
 ```
 
 and then install openAI CLIP model:
-```install CLIP
+```bash
 pip install git+https://github.com/openai/CLIP.git
 ```
 
 ### Prepare Datasets
 
 Download [Market1501](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/market1501.zip) and [DukeMTMC](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/dukemtmc.zip) and then extract file to directory: *AIE-TransReID/datasets*:
-```extract Market1501
+```bash
 unzip market1501.zip -d AIE-TransReID/datasets/market1501
 ```
 
-```extract DukeMTMC
+```bash
 unzip dukemtmc.zip -d AIE-TransReID/datasets/dukemtmcreid
 ```
 
 ### Prepare CLIP and ViT Pre-trained Models
 You need to download the pretrained [CLIP ViT-B-16.pt](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/ViT-B-16.zip)  and then unzip it to directory : *AIE-TransReID/text*.
 
-```CLIP
+```bash
 unzip ViT-B-16.zip -d AIE-TransReID/text
 ```
 
 You need also to download the ImageNet pretrained transformer model : [ViT-Base](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/jx_vit_base_p16_224-80ecf9dd.zip)  and then unzip it to directory : *AIE-TransReID/model*.
-```jx_vit_base
+```bash
 unzip jx_vit_base_p16_224-80ecf9dd.zip -d AIE-TransReID/model
 ```
 
@@ -46,11 +46,11 @@ We utilize 1 GPU with 32G GPU memory for training.
 
 To train the model(s) in the paper, in the *AIE-TransReID* directory run these commands:
 
-```train
+```bash
 ./train-market.sh
 ```
 and
-```train
+```bash
 ./train-duke.sh
 ```
 
@@ -58,7 +58,7 @@ and
 
 After training with attribute information embedding strength varying from 0.1 to 3.0 on Market 1501 dataset ( see shell script *train-market.sh* for details ) , the models are evaluated automatically when evaluating epoch period( set by config parameter SOLVER.CHECKPOINT_PERIOD ) reaches and the results are logged into file: *AIE-TransReID/logs/market_attribute/train_bg_384_0.log*. You can change to directory *AIE-TransReID/logs/market_attribute/Market_AIE_SIE.ipynb* and run all the cells to get the curve shown in Fig.1(a) and (c).
 
-```Market1501
+```bash
 cd AIE-TransReID/logs/market_attribute/
 jupyter notebook Market_AIE_SIE.ipynb
 (after open the notebook in a browser, run all the cells)
@@ -66,7 +66,7 @@ jupyter notebook Market_AIE_SIE.ipynb
 
 The training on DukeMTMC dataset using an attribute information embedding strength changing from 0.2 to 3.0 ( details can be found in *train-duke.sh* ). The results shown in Fig.1(b) and (d) can be reproduced by the following code:
 
-```DukeMTMC
+```bash
 cd AIE-TransReID/logs/duke_attribute/
 jupyter notebook Duke_AIE_SIE.ipynb
 (after open the notebook in a browser, run all the cells)
@@ -74,12 +74,12 @@ jupyter notebook Duke_AIE_SIE.ipynb
 You may also test each trained model with different attribute information embedding strength by using test.py with the settings the same in training.
 
 To reproduce the results shown in Table 1, run test.sh with a command line parameter 'm' first and then 'd' to generated evaluating performance with attribute information dropouts.
-```dropout
+```bash
 ./test.sh m
 ./test.sh d
 ```
 Then change to subdirectory : logs, open AIE_test_dropout.ipynb and run all the cells to generate all the data shown in Table 1.
-```logs
+```bash
 cd logs
 jupyter notebook AIE_test_dropout.ipynb
 (after open the notebook in a browser, run all the cells)
@@ -94,18 +94,24 @@ The TransReId model uses the pretrained  Google vit_base_p16_224 model. The AIE 
 
 ## Results
 1. The results of the performance vs. AIE strength &gamma; can be reproduced using our training logs. Goto subdirectory *logs/market_attribute/* and *openMarket_AIE_SIE.ipynb* and run all the cells, you can get the following figures:
-![Fig.1(a)](Fig.1(a).png#pic_center)
-<center><p>Fig.1 (a)</p></center>
-
-![Fig.1(c)](Fig.1(c).png#pic_center)
-<center><p>Fig.1 (c)</p></center>
+<div>
+    ![Fig.1(a)](Fig.1(a).png#pic_center)
+    <p>Fig.1 (a)</p>
+</div>
+<div>
+    ![Fig.1(c)](Fig.1(c).png#pic_center)
+    <center><p>Fig.1 (c)</p></center>
+</div>
 
 Then goto path *logs/duke_attribute/* and open *Duke_AIE_SIE.ipynb*, you can get Fig.1(b) and (d) by running all the cells:
-![Fig.1(b)](Fig.1(b).png#pic_center)
-<center><p>Fig.1 (b)</p></center>
-
+<div>
+    ![Fig.1(b)](Fig.1(b).png#pic_center)
+    <center><p>Fig.1 (b)</p></center>
+</div>
+<div>
 ![Fig.1(d)](Fig.1(d).png#pic_center)
 <center><p>Fig.1 (d)</p></center>
+</div>
 
 2. The testing results on attribute information dropout with different dropout rate can also be reproduced by our testing results. 
 you can also downloaded the following trained 
