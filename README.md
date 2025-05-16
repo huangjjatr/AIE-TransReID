@@ -112,7 +112,7 @@ Then goto path *logs/duke_attribute/* and open *Duke_AIE_SIE.ipynb*, you can get
 
 2. The testing results on attribute information dropout with different dropout rate can be reproduced by our testing results in log files. 
 You can also downloaded the following trained 
-* Trained model for [Market 1501](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/market_model.zip) with AIE strength &gamma; = 2.6.
+* Trained model for [Market 1501](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/market_model.zip) with AIE strength $\gamma=2.6$.
 ```bash
 (after download, under command line run)
 unzip market_model.zip -d AIE_TransReID/logs/market_attribute/transformer_0_26.pth
@@ -143,14 +143,14 @@ and run *test.sh* to reproduce log files as stated in **Evaluation** section. Ou
 
 3. Our model achieves the following performance on Market1501 and DukeMTMC datasets with the optimal AIE strength values:
 
-| Datasets     |     mAP    |     Rank-1     |  AIE strength  |
-| ------------ | ---------- | -------------- | -------------- |
-| Market1501   |     98.50% |      99.60%    |       2.6      |
-| DukeMTMC     |     91.2%  |      96.00%    |       1.6      |
+| Datasets     |     mAP(%)  |     Rank-1(%)     |  optimal AIE strength  |
+| ------------ | :----------: | :--------------: | :--------------: |
+| Market1501   |     98.50 |      99.60    |       2.6      |
+| DukeMTMC     |     91.2  |      96.00    |       1.6      |
 
 The above results can be found in log files: 
-- AIE-TransReID/logs/market_attribute/train_bg_384_0.log (below the line ending with SIE_Lambda: 2.6)
-- AIE-TransReID/logs/duke_attribute/train_384x128_0.log.log (below the line ending with SIE_Lambda: 1.6)
+- *AIE-TransReID/logs/market_attribute/train_bg_384_0.log* (below the line ending with SIE_Lambda: 2.6)
+- *AIE-TransReID/logs/duke_attribute/train_384x128_0.log.log* (below the line ending with SIE_Lambda: 1.6)
 
 
 ## Contributing
