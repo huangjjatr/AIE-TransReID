@@ -96,11 +96,10 @@ The TransReId model uses the pretrained  Google vit_base_p16_224 model. The AIE 
 1. The results of the performance vs. AIE strength &gamma; can be reproduced using our training logs. Goto subdirectory *logs/market_attribute/* and *openMarket_AIE_SIE.ipynb* and run all the cells, you can get the following figures:
 
     ![Fig.1(a)](Fig.1(a).png)
-    <p><center>Fig.1 (a)</center></p>
+    <p align="center">Fig.1 (a)</p>
 
     ![Fig.1(c)](Fig.1(c).png)
-    <center><p>Fig.1 (c)</p></center>
-
+    <p>Fig.1 (c)</p>
 
 Then goto path *logs/duke_attribute/* and open *Duke_AIE_SIE.ipynb*, you can get Fig.1(b) and (d) by running all the cells:
 
