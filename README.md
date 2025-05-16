@@ -95,11 +95,11 @@ The TransReId model uses the pretrained  Google vit_base_p16_224 model. The AIE 
 ## Results
 1. The results of the performance vs. AIE strength &gamma; can be reproduced using our training logs. Goto subdirectory *logs/market_attribute/* and *openMarket_AIE_SIE.ipynb* and run all the cells, you can get the following figures:
 
-    ![Fig.1(a)](Fig.1(a).png)
-    <p align="center">Fig.1 (a)</p>
+![Fig.1(a)](Fig.1(a).png)
+<p align="center">Fig.1 (a)</p>
 
-    ![Fig.1(c)](Fig.1(c).png)
-    <p align="center">Fig.1 (c)</p>
+![Fig.1(c)](Fig.1(c).png)
+<p align="center">Fig.1 (c)</p>
 
 Then goto path *logs/duke_attribute/* and open *Duke_AIE_SIE.ipynb*, you can get Fig.1(b) and (d) by running all the cells:
 
@@ -113,12 +113,12 @@ Then goto path *logs/duke_attribute/* and open *Duke_AIE_SIE.ipynb*, you can get
 2. The testing results on attribute information dropout with different dropout rate can be reproduced by our testing results in log files. 
 You can also downloaded the following trained 
 * Trained model for [Market 1501](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/market_model.zip) with AIE strength $\gamma = 2.6$.
-```
+```bash
 (after download, under command line run)
 unzip market_model.zip -d AIE_TransReID/logs/market_attribute/transformer_0_26.pth
 ```
 * For model on [DukeMTMC](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/duke_model.zip) with AIE strength $\gamma = 1.6$.
-```
+```bash
 (after download, under command line run)
 unzip duke_model.zip -d AIE_TransReID/logs/duke_attribute/transformer_0_16.pth
 ```
