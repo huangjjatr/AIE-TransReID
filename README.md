@@ -71,14 +71,14 @@ cd AIE-TransReID/logs/duke_attribute/
 jupyter notebook Duke_AIE_SIE.ipynb
 (after open the notebook in a browser, run all the cells)
 ```
-You may also test each trained model with different attribute information embedding strength by using test.py with the settings the same in training.
+You may also test each trained model with different attribute information embedding strength by using *test.py* with the settings the same in training.
 
-To reproduce the results shown in Table 1, run test.sh with a command line parameter 'm' first and then 'd' to generated evaluating performance with attribute information dropouts.
+To evaluate performance with attribute information dropouts, run *test.sh* with a command line parameter 'm' first and then 'd' to generated evaluating log files.
 ```bash
 ./test.sh m
 ./test.sh d
 ```
-Then change to subdirectory : logs, open AIE_test_dropout.ipynb and run all the cells to generate all the data shown in Table 1.
+Then change to subdirectory : *logs/*, open *AIE_test_dropout.ipynb* and run all the cells to generate all the data shown in Table 1.
 ```bash
 cd logs
 jupyter notebook AIE_test_dropout.ipynb
@@ -94,24 +94,22 @@ The TransReId model uses the pretrained  Google vit_base_p16_224 model. The AIE 
 
 ## Results
 1. The results of the performance vs. AIE strength &gamma; can be reproduced using our training logs. Goto subdirectory *logs/market_attribute/* and *openMarket_AIE_SIE.ipynb* and run all the cells, you can get the following figures:
-<div>
-    ![Fig.1(a)](Fig.1(a).png#pic_center)
+
+    ![Fig.1(a)](Fig.1(a).png)
     <p>Fig.1 (a)</p>
-</div>
-<div>
-    ![Fig.1(c)](Fig.1(c).png#pic_center)
+
+    ![Fig.1(c)](Fig.1(c).png)
     <center><p>Fig.1 (c)</p></center>
-</div>
+
 
 Then goto path *logs/duke_attribute/* and open *Duke_AIE_SIE.ipynb*, you can get Fig.1(b) and (d) by running all the cells:
-<div>
-    ![Fig.1(b)](Fig.1(b).png#pic_center)
-    <center><p>Fig.1 (b)</p></center>
-</div>
-<div>
-![Fig.1(d)](Fig.1(d).png#pic_center)
+
+![Fig.1(b)](Fig.1(b).png)
+<p>Fig.1 (b)</p>
+
+![Fig.1(d)](Fig.1(d).png)
 <center><p>Fig.1 (d)</p></center>
-</div>
+
 
 2. The testing results on attribute information dropout with different dropout rate can also be reproduced by our testing results. 
 you can also downloaded the following trained 
