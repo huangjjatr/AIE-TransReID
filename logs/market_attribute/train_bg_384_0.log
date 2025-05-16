@@ -1,0 +1,531 @@
+Validation Results - Epoch: 120 with SIE_Lambda: 0.1
+mAP: 88.9%
+CMC curve, Rank-1  :95.2%
+CMC curve, Rank-5  :98.4%
+CMC curve, Rank-10 :99.2%
+Validation Results - Epoch: 120 with SIE_Lambda: 0.2
+mAP: 90.7%
+CMC curve, Rank-1  :96.5%
+CMC curve, Rank-5  :98.8%
+CMC curve, Rank-10 :99.3%
+Validation Results - Epoch: 120 with SIE_Lambda: 0.3
+mAP: 91.8%
+CMC curve, Rank-1  :96.5%
+CMC curve, Rank-5  :98.9%
+CMC curve, Rank-10 :99.3%
+Validation Results - Epoch: 120 with SIE_Lambda: 0.4
+mAP: 92.0%
+CMC curve, Rank-1  :96.8%
+CMC curve, Rank-5  :98.8%
+CMC curve, Rank-10 :99.5%
+Validation Results - Epoch: 120 with SIE_Lambda: 0.5
+mAP: 92.6%
+CMC curve, Rank-1  :96.9%
+CMC curve, Rank-5  :99.0%
+CMC curve, Rank-10 :99.4%
+Validation Results - Epoch: 120 with SIE_Lambda: 0.6
+mAP: 93.1%
+CMC curve, Rank-1  :97.5%
+CMC curve, Rank-5  :99.1%
+CMC curve, Rank-10 :99.6%
+Validation Results - Epoch: 120 with SIE_Lambda: 0.7
+mAP: 94.9%
+CMC curve, Rank-1  :98.2%
+CMC curve, Rank-5  :99.3%
+CMC curve, Rank-10 :99.7%
+Validation Results - Epoch: 120 with SIE_Lambda: 0.8
+mAP: 96.2%
+CMC curve, Rank-1  :99.0%
+CMC curve, Rank-5  :99.6%
+CMC curve, Rank-10 :99.7%
+Validation Results - Epoch: 120 with SIE_Lambda: 0.9
+mAP: 96.0%
+CMC curve, Rank-1  :98.8%
+CMC curve, Rank-5  :99.6%
+CMC curve, Rank-10 :99.6%
+Validation Results - Epoch: 120 with SIE_Lambda: 1.0
+mAP: 96.1%
+CMC curve, Rank-1  :98.9%
+CMC curve, Rank-5  :99.5%
+CMC curve, Rank-10 :99.7%
+Validation Results - Epoch: 120 with SIE_Lambda: 1.1
+mAP: 97.0%
+CMC curve, Rank-1  :99.2%
+CMC curve, Rank-5  :99.5%
+CMC curve, Rank-10 :99.7%
+Validation Results - Epoch: 120 with SIE_Lambda: 1.2
+mAP: 97.2%
+CMC curve, Rank-1  :99.2%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 1.3
+mAP: 97.2%
+CMC curve, Rank-1  :99.3%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 1.4
+mAP: 97.3%
+CMC curve, Rank-1  :99.4%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 1.5
+mAP: 97.5%
+CMC curve, Rank-1  :99.3%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 1.6
+mAP: 97.7%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.6%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 1.7
+mAP: 97.0%
+CMC curve, Rank-1  :99.3%
+CMC curve, Rank-5  :99.6%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 1.8
+mAP: 97.6%
+CMC curve, Rank-1  :99.2%
+CMC curve, Rank-5  :99.6%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 1.9
+mAP: 97.6%
+CMC curve, Rank-1  :99.4%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.0
+mAP: 97.9%
+CMC curve, Rank-1  :99.3%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.1
+mAP: 98.1%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.2
+mAP: 98.1%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.3
+mAP: 97.8%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.4
+mAP: 98.4%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.5
+mAP: 98.3%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.6
+mAP: 98.5%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.9%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.7
+mAP: 98.4%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.9%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.8
+mAP: 98.2%
+CMC curve, Rank-1  :99.4%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.9
+mAP: 98.3%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.9%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 3.0
+mAP: 95.6%
+CMC curve, Rank-1  :97.9%
+CMC curve, Rank-5  :99.6%
+CMC curve, Rank-10 :99.7%
+Validation Results - Epoch: 120 with SIE_Lambda: 3.1
+mAP: 98.1%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.9%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 3.2
+mAP: 98.3%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 3.3
+mAP: 98.5%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 3.4
+mAP: 97.9%
+CMC curve, Rank-1  :99.2%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 3.5
+mAP: 96.2%
+CMC curve, Rank-1  :98.2%
+CMC curve, Rank-5  :99.5%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 3.6
+mAP: 98.1%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 3.7
+mAP: 94.6%
+CMC curve, Rank-1  :96.9%
+CMC curve, Rank-5  :99.3%
+CMC curve, Rank-10 :99.6%
+Validation Results - Epoch: 120 with SIE_Lambda: 3.8
+mAP: 97.9%
+CMC curve, Rank-1  :99.2%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.7%
+Validation Results - Epoch: 120 with SIE_Lambda: 3.9
+mAP: 97.3%
+CMC curve, Rank-1  :99.1%
+CMC curve, Rank-5  :99.6%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 4.0
+mAP: 98.4%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 4.1
+mAP: 95.9%
+CMC curve, Rank-1  :98.2%
+CMC curve, Rank-5  :99.6%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 4.2
+mAP: 97.1%
+CMC curve, Rank-1  :98.8%
+CMC curve, Rank-5  :99.6%
+CMC curve, Rank-10 :99.7%
+Validation Results - Epoch: 120 with SIE_Lambda: 4.3
+mAP: 95.2%
+CMC curve, Rank-1  :97.3%
+CMC curve, Rank-5  :99.3%
+CMC curve, Rank-10 :99.6%
+Validation Results - Epoch: 120 with SIE_Lambda: 4.4
+mAP: 96.1%
+CMC curve, Rank-1  :98.1%
+CMC curve, Rank-5  :99.4%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 4.5
+mAP: 96.3%
+CMC curve, Rank-1  :98.5%
+CMC curve, Rank-5  :99.6%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 4.6
+mAP: 98.1%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 4.7
+mAP: 97.4%
+CMC curve, Rank-1  :99.0%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.7%
+Validation Results - Epoch: 120 with SIE_Lambda: 4.8
+mAP: 95.5%
+CMC curve, Rank-1  :97.2%
+CMC curve, Rank-5  :99.4%
+CMC curve, Rank-10 :99.7%
+Validation Results - Epoch: 120 with SIE_Lambda: 4.9
+mAP: 94.9%
+CMC curve, Rank-1  :97.1%
+CMC curve, Rank-5  :99.4%
+CMC curve, Rank-10 :99.7%
+Validation Results - Epoch: 120 with SIE_Lambda: 5.0
+mAP: 95.7%
+CMC curve, Rank-1  :97.8%
+CMC curve, Rank-5  :99.5%
+CMC curve, Rank-10 :99.8%
+
+Validation Results - Epoch: 120 with SIE_Lambda: 2.2
+mAP: 98.1%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.21
+mAP: 97.4%
+CMC curve, Rank-1  :99.0%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.22
+mAP: 98.4%
+CMC curve, Rank-1  :99.7%
+CMC curve, Rank-5  :99.9%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.23
+mAP: 98.2%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.24
+mAP: 97.6%
+CMC curve, Rank-1  :99.3%
+CMC curve, Rank-5  :99.6%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.25
+mAP: 98.2%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.26
+mAP: 98.4%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.27
+mAP: 98.0%
+CMC curve, Rank-1  :99.4%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.28
+mAP: 97.9%
+CMC curve, Rank-1  :99.2%
+CMC curve, Rank-5  :99.6%
+CMC curve, Rank-10 :99.7%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.29
+mAP: 94.7%
+CMC curve, Rank-1  :96.6%
+CMC curve, Rank-5  :99.3%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.31
+mAP: 98.2%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.7%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.32
+mAP: 97.7%
+CMC curve, Rank-1  :99.4%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.33
+mAP: 98.0%
+CMC curve, Rank-1  :99.4%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.34
+mAP: 98.2%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.35
+mAP: 97.9%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.36
+mAP: 93.3%
+CMC curve, Rank-1  :95.0%
+CMC curve, Rank-5  :99.1%
+CMC curve, Rank-10 :99.7%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.37
+mAP: 98.1%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.38
+mAP: 98.5%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.39
+mAP: 94.6%
+CMC curve, Rank-1  :96.9%
+CMC curve, Rank-5  :99.2%
+CMC curve, Rank-10 :99.7%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.41
+mAP: 98.3%
+CMC curve, Rank-1  :99.4%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.42
+mAP: 98.4%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.43
+mAP: 98.1%
+CMC curve, Rank-1  :99.4%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.44
+mAP: 98.3%
+CMC curve, Rank-1  :99.4%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.7%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.45
+mAP: 98.3%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.46
+mAP: 98.0%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.47
+mAP: 97.9%
+CMC curve, Rank-1  :99.3%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.48
+mAP: 98.5%
+CMC curve, Rank-1  :99.7%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.49
+mAP: 98.1%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.51
+mAP: 98.2%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.52
+mAP: 93.6%
+CMC curve, Rank-1  :95.5%
+CMC curve, Rank-5  :98.9%
+CMC curve, Rank-10 :99.6%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.53
+mAP: 98.5%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.54
+mAP: 98.4%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.55
+mAP: 98.6%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.56
+mAP: 97.8%
+CMC curve, Rank-1  :99.3%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.57
+mAP: 97.4%
+CMC curve, Rank-1  :99.1%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.58
+mAP: 98.2%
+CMC curve, Rank-1  :99.4%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.59
+mAP: 98.1%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.61
+mAP: 98.2%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.62
+mAP: 98.5%
+CMC curve, Rank-1  :99.7%
+CMC curve, Rank-5  :99.9%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.63
+mAP: 98.3%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.64
+mAP: 98.2%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.65
+mAP: 98.1%
+CMC curve, Rank-1  :99.4%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.66
+mAP: 98.0%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.67
+mAP: 98.3%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.9%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.68
+mAP: 98.5%
+CMC curve, Rank-1  :99.7%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.69
+mAP: 98.5%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.71
+mAP: 98.4%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.9%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.72
+mAP: 98.1%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.73
+mAP: 97.7%
+CMC curve, Rank-1  :99.2%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.74
+mAP: 98.0%
+CMC curve, Rank-1  :99.5%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.75
+mAP: 98.5%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.76
+mAP: 98.5%
+CMC curve, Rank-1  :99.6%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.77
+mAP: 96.6%
+CMC curve, Rank-1  :98.5%
+CMC curve, Rank-5  :99.7%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.78
+mAP: 95.0%
+CMC curve, Rank-1  :96.8%
+CMC curve, Rank-5  :99.3%
+CMC curve, Rank-10 :99.6%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.79
+mAP: 98.3%
+CMC curve, Rank-1  :99.4%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.9%
+Validation Results - Epoch: 120 with SIE_Lambda: 2.8
+mAP: 98.2%
+CMC curve, Rank-1  :99.4%
+CMC curve, Rank-5  :99.8%
+CMC curve, Rank-10 :99.8%

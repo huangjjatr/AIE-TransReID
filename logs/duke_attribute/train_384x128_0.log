@@ -1,0 +1,94 @@
+NUMBER OF RULES : 0
+2025-04-13 19:13:12,754 transreid.train INFO: Epoch 120 done. Time per batch: 0.343[s] Speed: 186.4[samples/s]
+2025-04-13 19:14:34,493 transreid.train INFO: Validation Results - Epoch: 120 with SIE_Lambda: 0.2
+2025-04-13 19:14:34,494 transreid.train INFO: mAP: 83.7%
+2025-04-13 19:14:34,494 transreid.train INFO: CMC curve, Rank-1  :91.9%
+2025-04-13 19:14:34,494 transreid.train INFO: CMC curve, Rank-5  :96.5%
+2025-04-13 19:14:34,494 transreid.train INFO: CMC curve, Rank-10 :97.7%
+2025-04-13 21:49:51,508 transreid.train INFO: Epoch 120 done. Time per batch: 0.344[s] Speed: 186.1[samples/s]
+2025-04-13 21:51:12,563 transreid.train INFO: Validation Results - Epoch: 120 with SIE_Lambda: 0.4
+2025-04-13 21:51:12,563 transreid.train INFO: mAP: 86.9%
+2025-04-13 21:51:12,563 transreid.train INFO: CMC curve, Rank-1  :93.5%
+2025-04-13 21:51:12,564 transreid.train INFO: CMC curve, Rank-5  :97.5%
+2025-04-13 21:51:12,564 transreid.train INFO: CMC curve, Rank-10 :98.4%
+2025-04-14 00:26:14,202 transreid.train INFO: Epoch 120 done. Time per batch: 0.342[s] Speed: 187.2[samples/s]
+2025-04-14 00:27:30,811 transreid.train INFO: Validation Results - Epoch: 120 with SIE_Lambda: 0.6
+2025-04-14 00:27:30,811 transreid.train INFO: mAP: 88.2%
+2025-04-14 00:27:30,811 transreid.train INFO: CMC curve, Rank-1  :94.7%
+2025-04-14 00:27:30,812 transreid.train INFO: CMC curve, Rank-5  :98.0%
+2025-04-14 00:27:30,812 transreid.train INFO: CMC curve, Rank-10 :98.6%
+2025-04-14 03:02:40,451 transreid.train INFO: Epoch 120 done. Time per batch: 0.343[s] Speed: 186.8[samples/s]
+2025-04-14 03:03:56,689 transreid.train INFO: Validation Results - Epoch: 120 with SIE_Lambda: 0.8
+2025-04-14 03:03:56,690 transreid.train INFO: mAP: 89.3%
+2025-04-14 03:03:56,690 transreid.train INFO: CMC curve, Rank-1  :95.4%
+2025-04-14 03:03:56,690 transreid.train INFO: CMC curve, Rank-5  :98.3%
+2025-04-14 03:03:56,691 transreid.train INFO: CMC curve, Rank-10 :98.8%
+2025-04-14 05:38:10,234 transreid.train INFO: Epoch 120 done. Time per batch: 0.338[s] Speed: 189.3[samples/s]
+2025-04-14 05:39:26,554 transreid.train INFO: Validation Results - Epoch: 120 with SIE_Lambda: 1.0
+2025-04-14 05:39:26,554 transreid.train INFO: mAP: 88.9%
+2025-04-14 05:39:26,554 transreid.train INFO: CMC curve, Rank-1  :95.2%
+2025-04-14 05:39:26,555 transreid.train INFO: CMC curve, Rank-5  :98.1%
+2025-04-14 05:39:26,555 transreid.train INFO: CMC curve, Rank-10 :98.8%
+2025-04-14 08:14:30,631 transreid.train INFO: Epoch 120 done. Time per batch: 0.340[s] Speed: 188.5[samples/s]
+2025-04-14 08:15:46,112 transreid.train INFO: Validation Results - Epoch: 120 with SIE_Lambda: 1.2
+2025-04-14 08:15:46,113 transreid.train INFO: mAP: 89.4%
+2025-04-14 08:15:46,113 transreid.train INFO: CMC curve, Rank-1  :94.8%
+2025-04-14 08:15:46,113 transreid.train INFO: CMC curve, Rank-5  :97.9%
+2025-04-14 08:15:46,113 transreid.train INFO: CMC curve, Rank-10 :98.8%
+2025-04-14 10:51:19,884 transreid.train INFO: Epoch 120 done. Time per batch: 0.345[s] Speed: 185.4[samples/s]
+2025-04-14 10:52:36,956 transreid.train INFO: Validation Results - Epoch: 120 with SIE_Lambda: 1.4
+2025-04-14 10:52:36,956 transreid.train INFO: mAP: 90.3%
+2025-04-14 10:52:36,956 transreid.train INFO: CMC curve, Rank-1  :95.4%
+2025-04-14 10:52:36,956 transreid.train INFO: CMC curve, Rank-5  :98.2%
+2025-04-14 10:52:36,956 transreid.train INFO: CMC curve, Rank-10 :98.7%
+2025-04-14 13:28:02,753 transreid.train INFO: Epoch 120 done. Time per batch: 0.343[s] Speed: 186.6[samples/s]
+2025-04-14 13:29:19,534 transreid.train INFO: Validation Results - Epoch: 120 with SIE_Lambda: 1.6
+2025-04-14 13:29:19,534 transreid.train INFO: mAP: 91.2%
+2025-04-14 13:29:19,535 transreid.train INFO: CMC curve, Rank-1  :96.0%
+2025-04-14 13:29:19,535 transreid.train INFO: CMC curve, Rank-5  :98.3%
+2025-04-14 13:29:19,535 transreid.train INFO: CMC curve, Rank-10 :99.0%
+2025-04-14 16:05:25,848 transreid.train INFO: Epoch 120 done. Time per batch: 0.345[s] Speed: 185.6[samples/s]
+2025-04-14 16:06:42,836 transreid.train INFO: Validation Results - Epoch: 120 with SIE_Lambda: 1.8
+2025-04-14 16:06:42,836 transreid.train INFO: mAP: 90.3%
+2025-04-14 16:06:42,837 transreid.train INFO: CMC curve, Rank-1  :95.4%
+2025-04-14 16:06:42,837 transreid.train INFO: CMC curve, Rank-5  :98.3%
+2025-04-14 16:06:42,837 transreid.train INFO: CMC curve, Rank-10 :99.0%
+2025-04-14 18:43:29,062 transreid.train INFO: Epoch 120 done. Time per batch: 0.347[s] Speed: 184.3[samples/s]
+2025-04-14 18:44:45,692 transreid.train INFO: Validation Results - Epoch: 120 with SIE_Lambda: 2.0
+2025-04-14 18:44:45,693 transreid.train INFO: mAP: 89.8%
+2025-04-14 18:44:45,693 transreid.train INFO: CMC curve, Rank-1  :95.1%
+2025-04-14 18:44:45,693 transreid.train INFO: CMC curve, Rank-5  :98.0%
+2025-04-14 18:44:45,693 transreid.train INFO: CMC curve, Rank-10 :99.0%
+2025-04-14 21:20:03,018 transreid.train INFO: Epoch 120 done. Time per batch: 0.348[s] Speed: 184.0[samples/s]
+2025-04-14 21:21:19,799 transreid.train INFO: Validation Results - Epoch: 120 with SIE_Lambda: 2.2
+2025-04-14 21:21:19,800 transreid.train INFO: mAP: 90.6%
+2025-04-14 21:21:19,800 transreid.train INFO: CMC curve, Rank-1  :95.6%
+2025-04-14 21:21:19,800 transreid.train INFO: CMC curve, Rank-5  :98.2%
+2025-04-14 21:21:19,800 transreid.train INFO: CMC curve, Rank-10 :99.0%
+2025-04-14 23:57:31,748 transreid.train INFO: Epoch 120 done. Time per batch: 0.344[s] Speed: 186.1[samples/s]
+2025-04-14 23:58:49,046 transreid.train INFO: Validation Results - Epoch: 120 with SIE_Lambda: 2.4
+2025-04-14 23:58:49,046 transreid.train INFO: mAP: 90.6%
+2025-04-14 23:58:49,047 transreid.train INFO: CMC curve, Rank-1  :95.4%
+2025-04-14 23:58:49,047 transreid.train INFO: CMC curve, Rank-5  :98.1%
+2025-04-14 23:58:49,047 transreid.train INFO: CMC curve, Rank-10 :98.9%
+2025-04-15 02:34:06,139 transreid.train INFO: Epoch 120 done. Time per batch: 0.343[s] Speed: 186.5[samples/s]
+2025-04-15 02:35:21,961 transreid.train INFO: Validation Results - Epoch: 120 with SIE_Lambda: 2.6
+2025-04-15 02:35:21,961 transreid.train INFO: mAP: 91.1%
+2025-04-15 02:35:21,961 transreid.train INFO: CMC curve, Rank-1  :95.7%
+2025-04-15 02:35:21,962 transreid.train INFO: CMC curve, Rank-5  :98.1%
+2025-04-15 02:35:21,962 transreid.train INFO: CMC curve, Rank-10 :98.8%
+2025-04-15 05:10:57,325 transreid.train INFO: Epoch 120 done. Time per batch: 0.343[s] Speed: 186.6[samples/s]
+2025-04-15 05:12:13,972 transreid.train INFO: Validation Results - Epoch: 120 with SIE_Lambda: 2.8
+2025-04-15 05:12:13,972 transreid.train INFO: mAP: 86.8%
+2025-04-15 05:12:13,973 transreid.train INFO: CMC curve, Rank-1  :93.1%
+2025-04-15 05:12:13,973 transreid.train INFO: CMC curve, Rank-5  :97.4%
+2025-04-15 05:12:13,973 transreid.train INFO: CMC curve, Rank-10 :98.2%
+2025-04-15 07:47:57,129 transreid.train INFO: Epoch 120 done. Time per batch: 0.343[s] Speed: 186.6[samples/s]
+2025-04-15 07:49:13,830 transreid.train INFO: Validation Results - Epoch: 120 with SIE_Lambda: 3.0
+2025-04-15 07:49:13,831 transreid.train INFO: mAP: 90.3%
+2025-04-15 07:49:13,831 transreid.train INFO: CMC curve, Rank-1  :95.6%
+2025-04-15 07:49:13,831 transreid.train INFO: CMC curve, Rank-5  :98.3%
+2025-04-15 07:49:13,832 transreid.train INFO: CMC curve, Rank-10 :98.9%
+NUMBER OF RULES : 0
+NUMBER OF RULES : 0
+NUMBER OF RULES : 0
