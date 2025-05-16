@@ -26,7 +26,7 @@ unzip market1501.zip -d AIE-TransReID/datasets/market1501
 ```
 
 ```extract DukeMTMC
-unzip DukeMTMC-reID.zip -d AIE-TransReID/datasets/dukemtmcreid
+unzip dukemtmc.zip -d AIE-TransReID/datasets/dukemtmcreid
 ```
 
 ### Prepare CLIP and ViT Pre-trained Models
