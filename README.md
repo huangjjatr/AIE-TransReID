@@ -111,7 +111,7 @@ Then goto path *logs/duke_attribute/* and open *Duke_AIE_SIE.ipynb*, you can get
 
 
 2. The testing results on attribute information dropout with different dropout rate can be reproduced by our testing results in log files. 
-You can also downloaded the following trained 
+You can also downloaded the following models :  
 * Trained [model for Market 1501](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/market_model.zip) with AIE strength $\gamma=2.6$.
 ```bash
 (after download, under command line run)
