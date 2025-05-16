@@ -95,14 +95,18 @@ The TransReId model uses the pretrained  Google vit_base_p16_224 model. The AIE 
 ## Results
 1. The results of the performance vs. AIE strength &gamma; can be reproduced using our training logs. Goto subdirectory *logs/market_attribute/* and *openMarket_AIE_SIE.ipynb* and run all the cells, you can get the following figures:
 ![Fig.1(a)](Fig.1(a).png#pic_center)
-<center>Fig.1 (a)</center>
+<center><p>Fig.1 (a)</p></center>
+
 ![Fig.1(c)](Fig.1(c).png#pic_center)
-<center>Fig.1 (c)</center>
+<center><p>Fig.1 (c)</p></center>
+
 Then goto path *logs/duke_attribute/* and open *Duke_AIE_SIE.ipynb*, you can get Fig.1(b) and (d) by running all the cells:
 ![Fig.1(b)](Fig.1(b).png#pic_center)
-<center>Fig.1 (b)</center>
+<center><p>Fig.1 (b)</p></center>
+
 ![Fig.1(d)](Fig.1(d).png#pic_center)
-<center>Fig.1 (d)</center>
+<center><p>Fig.1 (d)</p></center>
+
 2. The testing results on attribute information dropout with different dropout rate can also be reproduced by our testing results. 
 you can also downloaded the following trained 
 * Trained [Market 1501](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/market_model.zip) with AIE strength &gamma; = 2.6.
