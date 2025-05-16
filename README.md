@@ -112,17 +112,18 @@ Then goto path *logs/duke_attribute/* and open *Duke_AIE_SIE.ipynb*, you can get
 
 2. The testing results on attribute information dropout with different dropout rate can be reproduced by our testing results in log files. 
 You can also downloaded the following trained 
-* Trained model for [Market 1501](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/market_model.zip) with AIE strength $\gamma=2.6$.
+* Trained [model for Market 1501](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/market_model.zip) with AIE strength $\gamma=2.6$.
 ```bash
 (after download, under command line run)
 unzip market_model.zip -d AIE_TransReID/logs/market_attribute/transformer_0_26.pth
 ```
-* For model on [DukeMTMC](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/duke_model.zip) with AIE strength $\gamma=1.6$.
+* For [model on DukeMTMC](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/duke_model.zip) with AIE strength $\gamma=1.6$.
 ```bash
 (after download, under command line run)
 unzip duke_model.zip -d AIE_TransReID/logs/duke_attribute/transformer_0_16.pth
 ```
 and run *test.sh* to reproduce log files as stated in **Evaluation** section. Our testing logs are provided so you can skip the time-consuming testing process. In the *logs* directory, there is an notebook named *AIE_test_dropout.ipynb*. Go to that directory and open it then run all the cells, you'll get those results in Table.1:
+
 **Attribute dropout results on Market1501**
 |    | dropout_rate(%) | mAP_mean(%) | mAP_std(%) |  R1_mean(%) | R1_std(%) |
 | --- | ---: | :---: | :---: | :---: | :---: | 
