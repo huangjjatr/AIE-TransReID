@@ -99,30 +99,30 @@ The TransReId model uses the pretrained  Google vit_base_p16_224 model. The AIE 
     <p align="center">Fig.1 (a)</p>
 
     ![Fig.1(c)](Fig.1(c).png)
-    <p>Fig.1 (c)</p>
+    <p align="center">Fig.1 (c)</p>
 
 Then goto path *logs/duke_attribute/* and open *Duke_AIE_SIE.ipynb*, you can get Fig.1(b) and (d) by running all the cells:
 
 ![Fig.1(b)](Fig.1(b).png)
-<p>Fig.1 (b)</p>
+<p align="center">Fig.1 (b)</p>
 
 ![Fig.1(d)](Fig.1(d).png)
-<center><p>Fig.1 (d)</p></center>
+<p align="center">Fig.1 (d)</p>
 
 
-2. The testing results on attribute information dropout with different dropout rate can also be reproduced by our testing results. 
-you can also downloaded the following trained 
-* Trained [Market 1501](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/market_model.zip) with AIE strength &gamma; = 2.6.
+2. The testing results on attribute information dropout with different dropout rate can be reproduced by our testing results in log files. 
+You can also downloaded the following trained 
+* Trained model for [Market 1501](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/market_model.zip) with AIE strength $\gamma = 2.6$.
 ```
 (after download, under command line run)
 unzip market_model.zip -d AIE_TransReID/logs/market_attribute/transformer_0_26.pth
 ```
-* For [DukeMTMC](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/duke_model.zip) with AIE strength &gamma; = 1.6.
+* For model on [DukeMTMC](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/duke_model.zip) with AIE strength $\gamma = 1.6$.
 ```
 (after download, under command line run)
 unzip duke_model.zip -d AIE_TransReID/logs/duke_attribute/transformer_0_16.pth
 ```
-and run test.sh to reproduce log files as stated in Evaluation section. Our testing logs are provided so you can skip the time-consuming testing process. In the *logs* directory, there is an notebook named *AIE_test_dropout.ipynb*. Go to that directory and open it then run all the cells, you'll get those results in Table.1:
+and run *test.sh* to reproduce log files as stated in **Evaluation** section. Our testing logs are provided so you can skip the time-consuming testing process. In the *logs* directory, there is an notebook named *AIE_test_dropout.ipynb*. Go to that directory and open it then run all the cells, you'll get those results in Table.1:
 #### Attribute dropout results on Market1501 #####
 |    | dropout_rate(%) | mAP_mean(%) | mAP_std(%) |  R1_mean(%) | R1_std(%) |
 | --- | ---: | :---: | :---: | :---: | :---: | 
