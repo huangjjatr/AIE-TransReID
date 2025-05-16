@@ -20,7 +20,7 @@ pip install git+https://github.com/openai/CLIP.git
 
 ### Prepare Datasets
 
-Download [Market1501](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/market1501.zip) and [DukeMTMC](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/dukemtmc.zip) and then extract file to directory: AIE-TransReID/datasets:
+Download [Market1501](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/market1501.zip) and [DukeMTMC](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/dukemtmc.zip) and then extract file to directory: *AIE-TransReID/datasets*:
 ```extract Market1501
 unzip market1501.zip -d AIE-TransReID/datasets/market1501
 ```
@@ -30,14 +30,13 @@ unzip dukemtmc.zip -d AIE-TransReID/datasets/dukemtmcreid
 ```
 
 ### Prepare CLIP and ViT Pre-trained Models
-You need to download the pretrained [CLIP ViT-B-16.pt](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/ViT-B-16.zip)  and then unzip it to directory
-: AIE-TransReID/text.
+You need to download the pretrained [CLIP ViT-B-16.pt](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/ViT-B-16.zip)  and then unzip it to directory : *AIE-TransReID/text*.
 
 ```CLIP
 unzip ViT-B-16.zip -d AIE-TransReID/text
 ```
 
-You need also to download the ImageNet pretrained transformer model : [ViT-Base](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/jx_vit_base_p16_224-80ecf9dd.zip)  and then unzip it to directory: AIE-TransReID/model.
+You need also to download the ImageNet pretrained transformer model : [ViT-Base](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/jx_vit_base_p16_224-80ecf9dd.zip)  and then unzip it to directory : *AIE-TransReID/model*.
 ```jx_vit_base
 unzip jx_vit_base_p16_224-80ecf9dd.zip -d AIE-TransReID/model
 ```
@@ -57,7 +56,7 @@ and
 
 ## Evaluation
 
-After training with attribute information embedding strength varying from 0.1 to 3.0, the models are evaluated automatically and the results are logged into file: AIE-TransReID/logs/market_attribute/train_bg_384_0.log. You can change to directory AIE-TransReID/logs/market_attribute/Market_AIE_SIE.ipynb and run all the cells to get the curve shown in Fig.1(a) and (c).
+After training with attribute information embedding strength varying from 0.1 to 3.0, the models are evaluated automatically and the results are logged into file: *AIE-TransReID/logs/market_attribute/train_bg_384_0.log*. You can change to directory *AIE-TransReID/logs/market_attribute/Market_AIE_SIE.ipynb* and run all the cells to get the curve shown in Fig.1(a) and (c).
 
 ```Market1501
 cd AIE-TransReID/logs/market_attribute/
@@ -93,8 +92,16 @@ The TransReId model uses the pretrained  Google vit_base_p16_224 model. The AIE 
 - [ViT-Base](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth) trained on ImageNet by Google.
 - [ViT-B-16.pt](https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt) by OpenAI.
 
-The trained models for attribute text dropout can be also be downloaded:
-* For [Market 1501](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/market_model.zip) with AIE strength &gamma; = 2.6.
+## Results
+1. The results of the performance vs. AIE strength &gamma; can be reproduced using our training logs. Goto subdirectory *logs/market_attribute/* and *openMarket_AIE_SIE.ipynb* and run all the cells, you can get the following figures:
+![Fig.1(a)](Fig.1(a).png)
+![Fig.1(c)](Fig.1(c).png)
+Then goto path *logs/duke_attribute/* and open *Duke_AIE_SIE.ipynb*, you can get Fig.1(b) and (d) by running all the cells:
+![Fig.1(b)](Fig.1(b).png)
+![Fig.1(d)](Fig.1(d).png)
+2. The testing results on attribute information dropout with different dropout rate can also be reproduced by our testing results. 
+Downloaded the following trained 
+* Trained [Market 1501](https://github.com/pseudonymous-aie/AIE-TransReID/blob/main/market_model.zip) with AIE strength &gamma; = 2.6.
 ```
 (after download, under command line run)
 unzip market_model.zip -d AIE_TransReID/logs/market_attribute/transformer_0_26.pth
@@ -104,30 +111,24 @@ unzip market_model.zip -d AIE_TransReID/logs/market_attribute/transformer_0_26.p
 (after download, under command line run)
 unzip duke_model.zip -d AIE_TransReID/logs/duke_attribute/transformer_0_16.pth
 ```
-## Results
-1. The results of the performance vs. AIE strength &gamma; can be reproduced using our training logs. Goto subdirectory logs/market_attribute/ and openMarket_AIE_SIE.ipynb and run all the cells, you can get the following figures:
-![Fig.1(a)](Fig.1(a).png)
-![Fig.1(c)](Fig.1(c).png)
-Then goto path logs/duke_attribute/ and open Duke_AIE_SIE.ipynb, you can get Fig.1(b) and (d) by running all the cells:
-![Fig.1(b)](Fig.1(b).png)
-![Fig.1(d)](Fig.1(d).png)
-2. The testing results on attribute information dropout with different dropout rate can also be reproduced by our testing results. In logs directory, there is an notebook named AIE_test_dropout.ipynb. Goto that directory and open it then run all the cells, you'll get:
-#### Attribute dropout results on Market1501 ####|    | 
-dropout_rat |e	mAP_mea |n	mAP_std| 	R1_mea |n	R1_st |
-| --- | --- | --- | --- | --- | --- |d|  | 0	0. | 1	93.5| 5	0.15000| 0	97.6| 0	0.2828 |4| 3| 
-1	0 | 02	93.| 57	0.1900| 00	97.| 66	0.280 |0| 00| 
-2	 | .05	93| .53	0.210| 000	97| .61	0.17 |0| 00| 0
-3 | 0.10	9| 3.54	0.16| 2481	9| 7.54	0.1 |8| 54| 72
- | 	0.20	| 93.61	0.1| 13578	| 97.64	0. |2#### Attribute dropout results on DukeMTMC ####
-|    | dropout_rate |	mAP_mean |	mAP_std	| R1_mean |	R1_std |
+Run test.sh will reproduce log files as stated in Evaluation section. Our testing logs are provided so you skip the time-consuming testing. In the *logs* directory, there is an notebook named *AIE_test_dropout.ipynb*. Go to that directory and open it then run all the cells, you'll get those results in Table.1:
+#### Attribute dropout results on Market1501 #####
+|    | dropout_rate | mAP_mean(%) | mAP_std(%) |  R1_mean(%) | R1_std(%) |
+| --- | --- | --- | --- | --- | --- | 
+| 0 | 0.01 | 98.11 | 0.13 | 99.52 | 0.07 |
+| 1 | 0.02 | 98.11 | 0.16 | 99.57 | 0.08 |
+| 2 | 0.05 | 98.12 | 0.14 | 99.51 | 0.11 |
+| 3 | 0.1  | 98.13 | 0.10 | 99.56 | 0.07 |
+| 4 | 0.2  | 98.11 | 0.13 | 99.53 | 0.08 |
+
+#### Attribute dropout results on DukeMTMC ####
+|    | dropout_rate | mAP_mean(%) | mAP_std(%) | R1_mean(%) | R1_std(%) |
 | --- | --- | --- | --- | --- | --- |
-| 
-| 0	0.0| 1	93.5| 5	0.15000| 0	97.6| 0	0.2828 |4| 3| 
-1	0.| 02	93.| 57	0.1900| 00	97.| 66	0.280 |0| 00| 
-2	0| .05	93| .53	0.210| 000	97| .61	0.17 |0| 00| 0
-3	| 0.10	9| 3.54	0.16| 2481	9| 7.54	0.1 |8| 54| 72
-4| 	0.20	| 93.61	0.1| 13578	| 97.64	0. |253772
-53772
+| 0 | 0.01 | 93.55 | 0.15 | 97.60 | 0.28 |
+| 1 | 0.02 | 93.57 | 0.19 | 97.66 | 0.28 |
+| 2 | 0.05 | 93.53 | 0.21 | 97.61 | 0.17 |
+| 3 | 0.1  | 93.54 | 0.16 | 97.54 | 0.19 |
+| 4 | 0.2  | 93.61 | 0.11 | 97.64 | 0.25 | 
 
 4. Our model achieves the following performance on Market1501 and DukeMTMC datasets with the optimal AIE strength values:
 
